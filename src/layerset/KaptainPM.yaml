@@ -1,0 +1,8 @@
+apiVersion: kaptain.org/1.29
+metadata:
+  description: "Cluster-use project layerset - composes quality and release settings"
+
+spec:
+  layers:
+    - layer-github-flow-strict:[1.4,2.0)
+    - layer-gh-release-how-to-use-full-only:[1.1,2.0)
